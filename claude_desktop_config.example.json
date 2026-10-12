@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "dell-servicetag": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/AkoSti0578/DellServiceTagMCP", "dell-servicetag-mcp"],
+      "env": {
+        "DELL_CLIENT_ID": "<jouw-client-id>",
+        "DELL_CLIENT_SECRET": "<jouw-client-secret>"
+      }
+    }
+  }
+}
